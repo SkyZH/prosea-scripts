@@ -1,0 +1,19 @@
+{
+  "name": "prosea-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/pouchdb-server -d _data",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pouchdb": "^6.1.1",
+    "pouchdb-adapter-leveldb": "^6.1.1",
+    "pouchdb-server": "^2.0.1",
+    "socket-pouch": "^2.0.0"
+  }
+}
